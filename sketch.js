@@ -4,7 +4,7 @@ let slider;
 function setup() {
   createCanvas(displayWidth, displayHeight);   
     slider = createSlider(0, 100, 50, 1)
-    slider.position(10, 10)
+    slider.position(displayWidth - 220, 10)
   points = []
 //   frameRate(2)
   for(let i =0; i < 50; i++){
